@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#countries-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h3{
+    font-weight: 400;
+}
+button{
+    cursor: pointer;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+}
+.country{
+    
+    border-bottom:2px solid ;
+    width: 25%;
+    margin: 10px;
+    padding: 15px;
+    overflow: auto;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+.country-details h2{
+    font-weight: 400;
+}
+.country-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    color: white;
+}
+.country-details img{
+    width: 90px;
+    height: 54px;
+}
